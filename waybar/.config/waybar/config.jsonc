@@ -61,7 +61,7 @@
     "on-click-right": "alacritty"
   },
   "clock": {
-    "format": "{:%A %I:%M:%S %p}",
+    "format": "{:L%d %A %I:%M:%S %p}",
     "format-alt": "{:L%d %B W%V %Y}",
     "interval": 1,
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
