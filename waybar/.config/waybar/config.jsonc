@@ -61,7 +61,7 @@
     "on-click-right": "alacritty"
   },
   "clock": {
-    "format": "{:L%d %A %I:%M:%S %p}",
+    "format": "{:L%d %B %A %I:%M:%S %p}",
     "format-alt": "{:L%d %B W%V %Y}",
     "interval": 1,
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
@@ -73,8 +73,8 @@
     "format-wifi": "{icon}",
     "format-ethernet": "󰊠",
     "format-disconnected": "󰧵",
-    "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
-    "tooltip-format-ethernet": "⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
+    "tooltip-format-wifi": "{essid} ({frequency} GHz)",
+    "tooltip-format-ethernet": "Connected",
     "tooltip-format-disconnected": "Disconnected",
     "interval": 3,
     "spacing": 1
